@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.thongbao{
+    height: 35px;
+    text-align: center;
+    background: #C0D8C0 ;
+    line-height: 35px;
+}
+
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background: #ededed;
+
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 5px;
+    left: 80px;
+
+}
+.menu-logo nav{
+    position: absolute;
+    right: 20px;
+     
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: #000;
+    line-height: 70px;
+    margin: 0 30px;
+}
+
+.menu-logo nav a:hover{
+    color: #C0D8C0 ;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+.banner{
+    width: 100%; 
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.product .heading{
+    font-size: 28px;
+    color: #FF6464;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.product .list-product .product-item{
+    width: 20%;
+    margin: 20px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.product .list-product .product-item img{
+    max-width: 100%;
+    width: 301px;
+    height: 302px;
+}
+
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.tintuc .new-item img{
+    max-width: 100%;
+    width: 274px;
+    height: 180px;
+    
+}
+
+footer{
+    width: 100%;
+    background: #C0D8C0;
+    color: #fff;
+    
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 10px;
+  
+
+}
+
+footer .footer-item h3{
+    margin: 30px 0;
+}
+
+footer .link a {
+display: block;
+text-decoration: none;
+color: #fff;
+margin: 10px 0
+}
+
+.tacgia{
+    background: #1A1A40;
+    color: white;
+    text-align: center  ;
+    
+}
+
+
+
